@@ -1,0 +1,8 @@
+title, body{
+text-align:center;
+}
+
+label{
+  display:block;
+  padding: 2px;
+}

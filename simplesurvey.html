@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Title</h1>
+    <p id="description">description here</p>
+    <form id="survey-form">
+      <label id="name-label">
+        Name: <input id="name" type="text" placeholder="name" required />
+      </label>
+      <label id="email-label">
+        Email: <input id="email" type="email" placeholder="email" required />
+      </label>
+      <label id="number-label">
+        Age: <input type="number" id="number" min="3" max="100" placeholder="age" />
+      </label>
+      <label for="dropdown">
+        Options: <select id="dropdown">
+          <option value="one"> (select one) </option>
+          <option value="two"> option 1 </option>
+          <option value="three"> option 2 </option>
+        </select>
+      </label>
+      <label for="one">
+        <input value="one" id="one" type="radio" name="options" /> This
+      </label>
+      <label for="two">
+        <input value="two" id="two" type="radio" name="options" /> That
+      </label>
+      <label for="1">
+        <input id="1" type="checkbox" value="1" /> One
+      </label>
+      <label for="2">
+        <input id="2" type="checkbox" value="2" /> Two
+      </label>
+      <label for="3">
+        <input id="3" type="checkbox" value="3" /> Three
+      </label>
+      <label for="comments">
+        Comments: <textarea id="comments"></textarea>
+      </label>
+      <label for="submit">
+        <input type="submit" id="submit" value="Submit" />
+      </label>
+    </form>
+  </body>
+</html>
+
